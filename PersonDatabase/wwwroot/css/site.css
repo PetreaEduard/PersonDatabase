@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url("https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2")
+}
+
+
+html {
+    font-size: 14px;
+    font-family: 'JetBrains Mono';
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+        font-family: 'JetBrains Mono';
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: 'JetBrains Mono';
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'JetBrains Mono';
+}
